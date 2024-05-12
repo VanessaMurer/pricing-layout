@@ -1,0 +1,258 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ------------------------ */
+/* GENERAL STYLES */
+/* ------------------------ */
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #212529;
+  border-top: 10px solid #1ea358;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.btn {
+  padding: 8px 16px;
+  border-radius: 5px;
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+/* ------------------------ */
+/* COMPONENT STYLES */
+/* ------------------------ */
+
+/* HEADER */
+
+nav {
+  margin-top: 14px;
+  margin-bottom: 80px;
+
+  padding-bottom: 12px;
+  display: grid;
+  grid-template-columns: auto 1fr 1fr;
+  align-items: center;
+  gap: 40px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: #212529;
+  text-decoration: none;
+}
+
+.logo {
+  height: 44px;
+  margin-left: -8px;
+}
+
+.nav-items:hover,
+.nav-items:active {
+  color: #1ea358;
+}
+
+.current-item {
+  color: #1ea358;
+  font-weight: 500;
+}
+
+.nav-pages {
+  display: flex;
+  gap: 40px;
+}
+
+.nav-buttons {
+  display: flex;
+  justify-content: end;
+  gap: 20px;
+  font-weight: 500;
+}
+
+.btn--get-started {
+  background-color: #1ea358;
+  color: #fff;
+}
+
+h1 {
+  font-size: 62px;
+  line-height: 1.1;
+  width: 60%;
+}
+
+/* HEADER  TEXT*/
+
+.header-text {
+  margin-bottom: 64px;
+}
+
+.header-text span {
+  color: #1ea358;
+}
+
+/* BUTTON MONTHLY - ANNUAL */
+
+.billing {
+  border: 1px solid #ced4da;
+  display: inline-block;
+  padding: 4px;
+  border-radius: 8px;
+  margin-bottom: 32px;
+}
+
+.btn-monthly {
+  background-color: #1ea358;
+  color: #fff;
+  border: none;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.07);
+}
+
+/* PRICING CARDS */
+
+.pricing {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  gap: 35px;
+  margin-bottom: 64px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+.plan-price {
+  font-size: 62px;
+  display: flex;
+  gap: 8px;
+  align-items: end;
+  margin: 16px 0;
+}
+
+.plan-price span {
+  font-size: 14px;
+  padding-bottom: 9px;
+}
+
+.btn--plan {
+  display: block;
+  width: 100%;
+  padding: 12px 24px;
+  margin-bottom: 24px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.features {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 12px;
+  margin-top: 24px;
+}
+
+.plus {
+  margin-bottom: 24px;
+}
+
+.plan-features li {
+  margin-bottom: 16px;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 8px;
+}
+
+.plan-features li:last-child {
+  margin-bottom: 0;
+}
+
+.icon {
+  height: 20px;
+  width: 20px;
+  stroke: #1ea358;
+}
+
+.pricing-card {
+  border: 1px solid #ced4da;
+  border-radius: 10px;
+  box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.07);
+}
+
+.pricing-box-one {
+  border-bottom: 1px solid #f1f3f5;
+  padding: 20px 20px 0 20px;
+}
+
+.pricing-box-two {
+  border-top: 1px solid #f1f3f5;
+  padding: 0 20px 20px 20px;
+}
+
+/* current plan */
+
+.btn-current-plan {
+  background-color: #e9f6ee;
+  color: #1ea358;
+  border: 1px solid #1ea358;
+  font-weight: 500;
+}
+
+/* Professional plan */
+
+.pro-card {
+  background-color: #0c4123;
+  color: #e9f6ee;
+  border: none;
+  box-shadow: 0 20px 40px 0 rgba(12, 65, 35, 0.3);
+}
+
+.btn-pro {
+  background-color: #a9e34b;
+  color: #0c4123;
+}
+
+.icon-pro {
+  stroke: #a9e34b;
+}
+
+.pro-popular {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.popular {
+  font-size: 14px;
+  color: #0c4123;
+  font-weight: 500;
+  background-color: #94d82d;
+  padding: 5px 10px;
+  border-radius: 100px;
+}
+
+.pro-card h3 {
+  color: #a9e34b;
+}
+
+.pro-card strong {
+  color: #fff;
+}
+
+.pricing-box-one.pro {
+  border-bottom: 1px solid #0f522c;
+}
+
+.pricing-box-two.pro {
+  border-top: 1px solid #0f522c;
+}
